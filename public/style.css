@@ -1,0 +1,78 @@
+/* Reset some basic elements for consistency across browsers */
+* {
+    box-sizing: border-box;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #053b92;
+    color: #fff;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    overflow-y: hidden;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header nav ul li {
+    margin-left: 2rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ccc;
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+}
+
+footer {
+    background-color: #053b92;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}
+.loginform{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.btn{
+    background-color: rgb(7, 99, 38);
+}
+

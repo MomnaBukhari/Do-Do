@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Task 1",
+        "description": "This is task 1",
+        "priority": "medium",
+        "due_date": "2024-06-14",
+        "attachments": null,
+        "status": "in_progress",
+        "notes": "Note for task 1",
+        "completed": false
+    },
+    {
+        "title": "Task 2",
+        "description": "This is task 2",
+        "priority": "high",
+        "due_date": "2024-06-19",
+        "attachments": null,
+        "status": "postponed",
+        "notes": "Note for task 2",
+        "completed": false
+    },
+    {
+        "title": "Task 3",
+        "description": "This is task 3",
+        "priority": "low",
+        "due_date": null,
+        "attachments": null,
+        "status": "completed",
+        "notes": "Note for task 3",
+        "completed": true
+    }
+]
